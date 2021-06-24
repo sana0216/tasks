@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasks</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <main>
+        <header>
+            <div class="clear"></div>
+               <main>
+               <aside>
+               <nav>
+               <div id="felight" class="felight">
+                  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                 <a href="#">About</a>
+                 <a href="#">Services</a>
+                 <a href="#">Clients</a>
+                 <a href="#">Contact</a>
+               </div>
+
+                 <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+                    <script>
+                         function openNav() {
+                               document.getElementById("felight").style.display = "block";
+                                  }
+                                  function closeNav() {
+                                         document.getElementById("felight").style.display = "none";
+                                        }
+                                            </script> 
+
+               </aside>
+               <nav>
+               <div class="logo">
+               <img src="logo.png" alt = "lion" style ="width: 80px; height: 50px"/>
+               <ul>
+                       <li><a href ="#" class="active">Home</a></li>
+                       <li><a href ="#">Courses</a></li>
+                       <li><a href ="#">Payfees</a></li>
+                       <li><img src ="search.png" alt="search" style ="width:20px; height:30px"></li>
+                       <li><img src ="cart.png" alt ="cart" style ="width: 20px; height:30px"></li>
+                      <li><a href="#">Sign in</a></li>
+                       <li><a href="#" class ="Sign">Sign Up</a></li>
+                   </ul>
+                   </div>
+                   </nav>
+        </header>
+    </main>
+
+    <footer>
+    <ul>
+    <li><a href="#">Terms</a></li>
+    <li><a href="#">Privacy</a></li>
+    <li><a href="#">Security</li>
+    <li><a href="#">Status</a></li>
+    <li><a href="#">About</a></li>
+    </ul>
+    </footer>
+</body>
+</html>
